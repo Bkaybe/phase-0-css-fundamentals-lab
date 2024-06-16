@@ -3,3 +3,69 @@ body {
   height: 100%;
   margin: 0;
 }
+
+.ps_h_logo{
+  text-align: center;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.nav-links a{
+  padding: 10px;
+  text-size-adjust: 12px;
+  background-color: coral;
+}
+
+#featured-property{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+figcaption{
+  text-align: center;
+  font-size: small;
+}
+
+.paragraph{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+
+}
+
+.paragraph p{
+  width: 800px;
+  text-align: center;
+}
+
+#details{
+  display: flex;
+  flex-direction: row;
+  background-color: red;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+
+}
+
+#details div{
+  float: left;
+  text-align: center;
+  align-items: center;
+}
+
+#details a{
+  color: darkblue;
+}
+
+
